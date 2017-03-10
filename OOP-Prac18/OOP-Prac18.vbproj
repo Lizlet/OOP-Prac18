@@ -127,5 +127,8 @@
   <ItemGroup>
     <None Include="Resources\addresslist.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doblist.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

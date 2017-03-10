@@ -121,6 +121,9 @@
   <data name="addresslist" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\addresslist.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+  <data name="doblist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doblist.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
   <data name="namelist" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\namelist.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
