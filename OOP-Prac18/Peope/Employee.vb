@@ -1,4 +1,4 @@
-﻿Public Class Employe
+﻿Public Class Employee
     Inherits Person
     Public Property position As String
     Public Property payGrade As UInteger
