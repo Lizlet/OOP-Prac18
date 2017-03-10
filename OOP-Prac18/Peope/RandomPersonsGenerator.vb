@@ -2,11 +2,9 @@
 Public Class RandomPersonsGenerator
     Public Shared Function GenerateRandomPersonsList() As Person()
         Dim persons(99) As Person
-
         For i As Integer = 0 To persons.Length - 1
             persons(i) = GenerateRandomPerson()
         Next
-
         Return persons
     End Function
 
@@ -17,12 +15,10 @@ Public Class RandomPersonsGenerator
         Dim dob As Date = Date.ParseExact(My.Resources.doblist.Split(Environment.NewLine)(rng.Next(1, 51)).Substring(1, 10), "dd/MM/yyyy", CultureInfo.InvariantCulture)
         Dim email As String = $"{name.Split(" ")(0).Substring(1, name.Split(" ")(0).Length - 1)}.{name.Split(" ")(1)}@gmail.com"
         Dim phone As String = $"{rng.Next(1000, 9999)} {rng.Next(100000, 999999)}"
-
         name = name.Substring(1, name.Length - 1)
         address = address.Substring(1, address.Length - 1)
 
         Dim checker As Integer = rng.Next(0, 3)
-
         If checker = 0 Then
             Dim position As String = My.Resources.positionslist.Split(Environment.NewLine)(rng.Next(1, 31))
             position = position.Substring(1, position.Length - 1)
