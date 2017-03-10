@@ -96,6 +96,7 @@
     </Compile>
     <Compile Include="Peope\Employee.vb" />
     <Compile Include="Peope\Person.vb" />
+    <Compile Include="Peope\RandomPersonsGenerator.vb" />
     <Compile Include="Peope\Student.vb" />
   </ItemGroup>
   <ItemGroup>
