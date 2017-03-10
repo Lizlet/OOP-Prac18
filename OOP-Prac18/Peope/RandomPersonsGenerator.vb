@@ -1,10 +1,16 @@
 ﻿Imports System.Globalization
 Public Class RandomPersonsGenerator
     Public Shared Function GenerateRandomPersonsList() As Person()
+        Dim persons(99) As Person
 
+        For i As Integer = 0 To persons.Length - 1
+            persons(i) = GenerateRandomPerson()
+        Next
+
+        Return persons
     End Function
 
-    Public Shared Function GenerateRandomPerson() As Person
+    Private Shared Function GenerateRandomPerson() As Person
         Static rng As System.Random = New System.Random
         Dim name As String = My.Resources.namelist.Split(Environment.NewLine)(rng.Next(1, 51))
         Dim address As String = My.Resources.addresslist.Split(Environment.NewLine)(rng.Next(1, 51))
