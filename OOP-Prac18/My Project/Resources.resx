@@ -130,4 +130,7 @@
   <data name="namelist" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\namelist.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+  <data name="positionslist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\positionslist.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
 </root>

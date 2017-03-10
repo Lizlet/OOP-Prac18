@@ -96,7 +96,8 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to 19/04/1953
+        '''  Looks up a localized string similar to 
+        '''19/04/1953
         '''31/01/1988
         '''21/04/1971
         '''29/01/1965
@@ -138,7 +139,7 @@ Namespace My.Resources
         '''14/01/1983
         '''22/08/1966
         '''13/12/1986
-        '''23/02/19 [rest of string was truncated]&quot;;.
+        '''23/02/ [rest of string was truncated]&quot;;.
         '''</summary>
         Friend ReadOnly Property doblist() As String
             Get
@@ -185,6 +186,43 @@ Namespace My.Resources
         Friend ReadOnly Property namelist() As String
             Get
                 Return ResourceManager.GetString("namelist", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Professor
+        '''Reader
+        '''Senior lecturer
+        '''Lecturer
+        '''senior lecturer
+        '''Assistant lecturer
+        '''demonstrator
+        '''seminar leader
+        '''associate lecturer
+        '''graduate teaching assistant
+        '''departmental lecturer
+        '''Research career pathway
+        '''Professorial teaching fellow
+        '''Senior teaching fellow
+        '''Teaching fellow
+        '''Teaching associate
+        '''Emeritus ranks
+        '''Emeritus professor
+        '''Emeritus reader
+        '''Senior fellow
+        '''Fellow
+        '''Chancellor
+        '''Pro-chancellor
+        '''Vice-chancellor
+        '''Deputy vice-chancellor
+        '''Pro-vice-chancellor
+        '''Deans of faculties
+        '''Principal
+        '''Deputy princip [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property positionslist() As String
+            Get
+                Return ResourceManager.GetString("positionslist", resourceCulture)
             End Get
         End Property
     End Module

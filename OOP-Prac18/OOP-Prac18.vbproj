@@ -134,5 +134,8 @@
   <ItemGroup>
     <None Include="Resources\degreelist.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\positionslist.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
