@@ -80,6 +80,22 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Applied Mathematics - Operations Research : Linear Programming
+        '''Computer Sciences - Computing In Mathematics, Natural Sciences, Engineering And Medicine : Computer-aided Engineering -- Computational Fluid Dynamics
+        '''Public Administration - Public Policy : Education
+        '''Philosophy - History Of Philosophy : Medieval Philosophy
+        '''Mathematics - Analysis : Real Analysis
+        '''Business - Industrial And Labor Relations : Organizational Studies
+        '''Statistics - Statistical Modelling : Quality Control
+        '''Medicine - Primary Care :  [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property degreelist() As String
+            Get
+                Return ResourceManager.GetString("degreelist", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to 19/04/1953
         '''31/01/1988
         '''21/04/1971
