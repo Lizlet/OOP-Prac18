@@ -124,5 +124,8 @@
   <ItemGroup>
     <None Include="Resources\namelist.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addresslist.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -61,6 +61,25 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to 109 Spencer Dr, Paisley PA2 0TW, UK
+        '''3 Nellington Rd, Rusthall, Tunbridge Wells TN4 8SH, UK
+        '''8 Dorsett Rd Terrace, Wednesbury WS10 8TP, UK
+        '''32 Denver Rd, Fforest-fach, Swansea SA5 4DA, UK
+        '''11 Roding Ln S, Ilford, Woodford Green IG8 8EY, UK
+        '''103 Station Rd, Burnham-on-Crouch CM0 8HQ, UK
+        '''19 Home Meadow, Welwyn Garden City AL7 3BA, UK
+        '''5 Auchraw Terrace, Lochearnhead FK19 8PS, UK
+        '''43 Park Ln, Shiremoor, Newcastle upon Tyne NE27 0TG, UK
+        '''4 Murray Ct, Balmullo, St Andrews KY16 0AT, UK
+        '''The Squires House, 2 Gamb [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property addresslist() As String
+            Get
+                Return ResourceManager.GetString("addresslist", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Mercy Grosso
         '''Luisa Mccaffery
         '''Sudie Montalbo
